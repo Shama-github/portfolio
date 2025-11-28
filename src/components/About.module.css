@@ -1,0 +1,19 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.4rem;
+}
+
+.cardTitle {
+  margin-top: 0;
+  margin-bottom: 0.55rem;
+  font-size: 1.02rem;
+}
+
+
